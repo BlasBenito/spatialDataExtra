@@ -1,6 +1,6 @@
 # spatialDataExtra
 
-Expands the data provided with the R package [`spatialData`](https://github.com/BlasBenito/spatialData).
+Expands the data provided with the R package [`spatialData`](https://blasbenito.github.io/spatialData/).
 
 ## Datasets
 
@@ -136,6 +136,6 @@ df <- sf::st_read(dsn = "trees_presence.gpkg")
 To load this dataset in your R session:
 
 ```r
-library(spatialData)
-df <- vi_extra()
+library(sf)
+df <- sf::st_read(dsn = "vi.gpkg")
 ```
