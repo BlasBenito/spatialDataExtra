@@ -1,5 +1,9 @@
 # spatialDataExtra
 
+<!-- badges: start -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19509327.svg)](https://doi.org/10.5281/zenodo.19509327)
+<!-- badges: end -->
+
 Expands the data provided with the R package [`spatialData`](https://blasbenito.github.io/spatialData/).
 
 ## Datasets
