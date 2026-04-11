@@ -4,7 +4,7 @@ Expands the data provided with the R package [`spatialData`](https://github.com/
 
 ## Datasets
 
-The datasets are published as release assets here: [https://github.com/BlasBenito/spatialDataExtra/releases/latest](https://github.com/BlasBenito/spatialDataExtra/releases/latest)
+These datasets are published as release assets here: [https://github.com/BlasBenito/spatialDataExtra/releases/latest](https://github.com/BlasBenito/spatialDataExtra/releases/latest)
 
 ### andalusia_env.tif
 
@@ -136,6 +136,6 @@ df <- sf::st_read(dsn = "trees_presence.gpkg")
 To load this dataset in your R session:
 
 ```r
-library(sf)
-df <- sf::st_read(dsn = "vi.gpkg")
+library(spatialData)
+df <- vi_extra()
 ```
